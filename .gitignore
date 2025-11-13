@@ -1,0 +1,94 @@
+# ==============================
+# Qt / C++ Project Git Ignore
+# ==============================
+
+# --- Build directories ---
+build*/
+*/build*/
+bin/
+debug/
+release/
+out/
+dist/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+
+# --- Object & binary files ---
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# --- Qt-generated files ---
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qm
+*.qrc.depends
+*.qrc_resource.cpp
+*.qmake.stash
+
+# --- IDE / Editor files ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*.user
+*.user.*
+*.autosave
+.DS_Store
+Thumbs.db
+
+# --- Logs / temporary files ---
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+
+# --- Packaging ---
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- Test / cache ---
+__pycache__/
+.cache/
+*.test
+*.gcda
+*.gcno
+*.gcov
+
+# --- Qt Creator specific ---
+*.creator.*
+*.pro.user
+*.includes
+*.config
+*.creator
+*.cflags
+*.includes
+*.files
+*.creator.user*
+
+# --- Generated documentation ---
+doc/
+docs/html/
+docs/latex/
