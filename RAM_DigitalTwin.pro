@@ -10,9 +10,11 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
+    src/ram/ram.cpp \
     src/ui/mainwindow.cpp
 
 HEADERS += \
+    include/ram/ram.h \
     include/ui/mainwindow.h
 
 # Default rules for deployment.
